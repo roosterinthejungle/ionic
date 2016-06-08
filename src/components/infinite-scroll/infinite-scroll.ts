@@ -22,7 +22,7 @@ import {Content} from '../content/content';
  *    <ion-item *ngFor="let i of items">{% raw %}{{i}}{% endraw %}</ion-item>
  *  </ion-list>
  *
- *  <ion-infinite-scroll (ionInfinite)="doInfinite($event)">
+ *  <ion-infinite-scroll (infinite)="doInfinite($event)">
  *    <ion-infinite-scroll-content></ion-infinite-scroll-content>
  *  </ion-infinite-scroll>
  *
@@ -67,7 +67,7 @@ import {Content} from '../content/content';
  *  ```html
  *  <ion-content>
  *
- *    <ion-infinite-scroll (ionInfinite)="doInfinite($event)">
+ *    <ion-infinite-scroll (infinite)="doInfinite($event)">
  *      <ion-infinite-scroll-content
  *        loadingSpinner="bubbles"
  *        loadingText="Loading more data...">
